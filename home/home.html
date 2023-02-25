@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LittleFashionHome</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+<body>
+    <div class="main"> 
+        <div class = "container1">
+            <div class = "first">
+                <b><span>Little</span><a href="#"> Fashion</a></b>
+            </div>
+            <div class = "second">
+                <a href = "D:\frontend\Little Fashion\home\home.html" >Home</a>
+                <a id = "" href = "D:\frontend\Little Fashion\story\story.html" >Story</a>
+                <a href = "D:\frontend\Little Fashion\Product\product.html" >Product</a>
+                <a href = "D:\frontend\Little Fashion\FAQS\faqs.html" >FAQs</a>
+                <a href = "D:\frontend\Little Fashion\contact\contact.html" >Contact</a>
+            </div>
+            <div class = "third">
+                <a href="D:\frontend\Little Fashion\Signin\signin.html"><i class="bi bi-person" id="person"></i></a>
+                <a href="D:\frontend\Little Fashion\cart\cart.html"><i class="bi bi-bag" id="bag"></i></a>
+            </div>
+        </div>
+        <!--slideshow-->
+        <div class="w3-container w3-center w3-animate-bottom">
+                    <div class="slideshow" >
+            
+            <div class="slider" >
+                <div id="img" class="img1"></div>
+                <div id="text" class="text1"></div>
+                <div id="text1" class="text1"></div>
+                <div class="button"> <button onclick="change(0)"> </button></div>
+                <div class="button2"><button onclick="change(1)"> </button></div>
+                <div class="button3"><button onclick="change(2)"> </button></div>
+            </div>
+
+        </div>
+    </div>
+
+        <!-- videos-->
+        <div class="gett" style="display: flex; flex-direction: row; align-items: center; justify-content: center; ">
+            <h3 style="text-align: center;font-weight: bold; color: black; margin-top: 100px; font-size: 40px;">Get started with  </h3>
+            <h3 style="text-align: center;font-weight: bold; color: orangered; margin-top: 100px; font-size: 40px; margin-left: 10px;">Little </h3>
+            <h3 style="text-align: center;font-weight: bold; color: black; margin-top: 100px; font-size: 40px; ">Fashion </h3>
+        </div>
+        <div class="video">
+
+            <div class="names">
+                <div class="intro">
+                   
+                    <div class="vl"></div>
+                    <div class="inh3"><h3 onclick="intro()">Introduction</h3></div>
+                    <br>
+                    <br>
+                    
+                    <div class="vl"></div>
+                    <div class="inh3"><h3 onclick="work()">How we work?</h3></div>
+                    <br>
+                
+                    <br>
+                    <div class="vl"></div>
+                    <div class="inh3"><h3 onclick="cap()">Capabilites</h3></div>
+                </div>
+            </div>
+
+            <div class="you">
+                <div id="youimage"></div>
+            </div>
+
+            <div class="videotext">
+                <div id="vtext" class="vtext"></div>
+                <div id="vtext1" class="vtext1"></div>
+                <div id="vtext2" class="vtext2"></div>
+                <div id="vtext3" class="vtext3"></div>
+                <p id="vtext4" class="vtext4"> </p>
+            </div>
+        </div>
+        <!--three-->
+        <div class="homethreemain">
+            <div class="homeimage1">
+                <img src="mainthree.jpg" alt="">
+            </div>
+            <div class="homethreetext">
+                <label class="homeoneww">
+                    Retail 
+                </label>
+                <label>shop owners</label>
+                <p>
+                    Credits go to Unsplash and FreePik websites for <br> images used in this Little Fashion by Tooplate.
+                </p>
+            </div>
+        </div>
+        
+
+
+        <!--new feature-->
+
+
+        <div class="new"> <h1> Featured Products</h1></div>
+        <div class="three"> 
+            
+            <div class="threemain">
+                <div class="imgone">
+                    <div class="image">
+                        <a>
+                            <img src="treepot.jpeg" alt="">
+                            </a>
+                            
+                    </div>
+                   
+                    
+                    <div class="rs"> 
+                        <p >$23</p>
+                    </div>
+                    <p id="pot"> Tree pot</p>
+               
+                    
+                    <p id="potquo">
+                        Original package design from house
+                    </p>
+                    
+                </div>
+                <div class="imgtwo">
+                    <a>
+                        <img src="two.jpeg" alt="">
+                        </a>
+                        <div class="rs1"> 
+                            <p >$35</p>
+                        </div>
+                        <p id="pot1"> Fashion set</p>
+                   
+                        
+                        <p id="potquo1">
+                            Costume package 
+                        </p>
+                 </div>
+                        <div class="imgthree">
+                                <a>
+                                    <img src="three.jpeg" alt="">
+                                </a> 
+                                    <div class="rs2"> 
+                                        <p >$45</p>
+                                    </div>
+                                    <p id="pot1"> Juice Drinks</p>
+                                    <p id="potquo2">
+                                        Nature made another world
+                                    </p>
+                        </div>
+                            
+                            
+                            
+                    </div>
+                    </div>
+    <!--five-->
+                  <div class="five">
+                        <h3>  VIEW ALL PRODUCTS</h3>
+                  </div>
+        
+        <div class="bottom">
+            <!--footer-->
+    <div class = "footer">
+        <div class = "f1">
+            <h2><span cl ass="lit">Little</span> Fashion</h2><br><br><br>
+            <p>Copyright @ 2022 <b><span>Little Fashion</span></b></p><br>
+            <p>Designed by<span class="tool"><a href = "D:\frontend\Little Fashion\home\home.html" > Tooplate</a></span></p>
+        </div>
+        <div class = "f2">
+            <h3>Sitemap</h3>
+            <a href="#">About</a><br><br>
+            <a href="#">Privacy policy</a><br><br>
+            <a href="D:\frontend\Little Fashion\contact\contact.html">Contact</a><br>
+        </div>
+        <div class = "f3">
+            <a href="D:\frontend\Little Fashion\Product\product.html">Products</a><br><br>
+            <a href="D:\frontend\Little Fashion\FAQS\faqs.html">FAQs</a>
+        </div>
+        <div class = "f4">
+            <h3>Social</h3>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+            <a id="soc" href="#"><i class="bi bi-whatsapp"></i></a>
+            <a id="soc" href="#"><i class="bi bi-instagram"></i></a>
+            <a id="soc" href="#"><i class="bi bi-skype"></i></a>
+        </div>
+
+        </div>
+
+    </div>
+
+
+<script src="new.js">
+    
+</script>
+
+
+    
+</body>
+</html>
